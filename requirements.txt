@@ -1,0 +1,10 @@
+# Versions are lower bounds; Colab's preinstalled torch/numpy/scipy/matplotlib work.
+torch>=2.3
+numpy>=1.24
+scipy>=1.10
+matplotlib>=3.7
+tiktoken>=0.5
+datasets>=2.14
+# Only needed to rebuild results/nanoGPT_scaling_results.pdf
+reportlab>=4.0
+pillow>=10.0
